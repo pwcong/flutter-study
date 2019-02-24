@@ -32,3 +32,18 @@ Doctor summary (to see all details, run flutter doctor -v):
 
 • No issues found!
 ```
+
+## 3.其他
+
+由于不可抗因素（dart与flutter是g家的东西），因此存在下载依赖包极度缓慢或者根本下载不了的情况，因此需要配置使用国内的mirror，这里介绍unix系统的配置信息，编辑`.bash_profile`文件，新增内容如下：
+```
+export PUB_HOSTED_URL=https://pub.flutter-io.cn
+export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
+```
+
+然后执行以下命令：
+```
+flutter doctor
+```
+
+windows系统参照上述配置信息配置系统环境变量。
