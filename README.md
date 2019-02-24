@@ -8,3 +8,4 @@ Flutter 从入门到脱单
 | ---- | ------------------------------- | ---------------------------------------------------------------------- |
 | 准备 | 1.学习 dart 2.配置 flutter 环境 | [1.study](https://github.com/pwcong/flutter-study/tree/master/1.ready) |
 | 第一个Demo| 第一个Demo | [2.first-demo](https://github.com/pwcong/flutter-study/tree/master/2.first-demo) |
+| 第一个Demo升级版| 第一个Demo升级版 | [3.first-demo-pro](https://github.com/pwcong/flutter-study/tree/master/3.first-demo-pro) |
